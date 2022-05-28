@@ -412,8 +412,5 @@ def showPlot3():
 
 
 # showPlot3()
-avg_std = runSimulation(5, 1, 20, 20, 0.8, 10, RandomWalkRobot, False)
-avg_rand = runSimulation(5, 1, 20, 20, 0.8, 10, StandardRobot, False)
-
-print(avg_std)
-print(avg_rand)
+# avg_std = runSimulation(5, 1, 20, 20, 0.8, 10, RandomWalkRobot, False)
+avg_std = runSimulation(10, 2, 50, 50, 0.8, 10, StandardRobot, True)
